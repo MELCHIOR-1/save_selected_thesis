@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Save selected Thesis",
+    "version": "1.0",
+    "description": "Save selected Thesis from SEG",
+	"icons": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "downloads"
+    ]
+}
